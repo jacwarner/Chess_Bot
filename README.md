@@ -21,6 +21,7 @@ resigning. Upon completion of the game, the game should announce the winner.
 
 
 ___States___
+
 There are a total of 4 states that game may enter:
 * PLAYING - a player is currently taking their turn
 * BLACK_WON - Black won the game
