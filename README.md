@@ -7,7 +7,7 @@ The program will be created utilizing two different packages Game and Bot.
 This package will focus on creating a game of chess using Object Oriented
 Programming.
 
-<h3>_Structure_</h3>
+___Structure___
 
 The game will prompt the player to start a new game. In its basic form, 
 the game will operate for two players but should still ask the player if 
@@ -20,12 +20,12 @@ update accordingly. However, the player may end the game prematurely by
 resigning. Upon completion of the game, the game should announce the winner.
 
 
-<h3>_States_</h3>
+___States___
 There are a total of 4 states that game may enter:
-- PLAYING - a player is currently taking their turn
-- BLACK_WON - Black won the game
-- WHITE_WON - White won the game
-- STALEMATE - Neither player won the game, no legal moves available
+* PLAYING - a player is currently taking their turn
+* BLACK_WON - Black won the game
+* WHITE_WON - White won the game
+* STALEMATE - Neither player won the game, no legal moves available
 
 # _Bot_
 TBA
