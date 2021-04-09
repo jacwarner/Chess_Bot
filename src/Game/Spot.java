@@ -1,7 +1,7 @@
 /**
  * <h1>Spot.java</h1>
  * Function: Creates and supports functionality for the Spot class object
- * <p>
+ *
  * Currently missing unit tests
  *
  *
@@ -17,6 +17,7 @@ public class Spot {
     private Piece piece;
     private int x;
     private int y;
+    private int color;
 
     /**
      * Constructor for Spot class object
@@ -24,10 +25,11 @@ public class Spot {
      * @param y int object for y position on chess board
      * @param piece Piece object that currently occupies the space
      */
-    public Spot(int x, int y, Piece piece){
+    public Spot(int x, int y, Piece piece, int color){
         setPiece(piece);
         setX(x);
         setY(y);
+        setColor(color);
     }
 
     /**
@@ -76,5 +78,21 @@ public class Spot {
      */
     public void setX(int x){
         this.x = x;
+    }
+
+    /**
+     * Returns an integer of 0(white) or 1(black) based off the color of the spot
+     * @return color int object representing the color of the space
+     */
+    public int getColor() {
+        return color;
+    }
+
+    /**
+     * Sets the integer color to 0(white) or 1(black) based off the color of the spot
+     * @param color int object representing the color of the space
+     */
+    public void setColor(int color) {
+        this.color = color;
     }
 }
