@@ -9,7 +9,7 @@
  * @verision 1.0
  * @since    2021-04-09
  */
-package Game;
+package Game.Model;
 
 public class Spot {
 
