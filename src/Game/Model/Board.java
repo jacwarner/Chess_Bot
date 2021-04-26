@@ -11,8 +11,6 @@
  */
 package Game.Model;
 
-import Game.Game;
-
 public class Board {
     Spot[][] spaces;
 

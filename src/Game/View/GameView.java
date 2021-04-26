@@ -8,11 +8,15 @@ public class GameView extends Application{
     public static void main(){
         //Run application
         //TODO
-
+        launch();
     }
 
     @Override
     public void start(Stage stage) throws Exception {
+        printBoard();
+    }
 
+    public void printBoard(){
+        //TODO
     }
 }
